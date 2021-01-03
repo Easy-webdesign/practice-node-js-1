@@ -1,12 +1,4 @@
-class User{
-    constructor(user){
-        this.user = user;
-    }
-
-    hello = () => {
-        console.log('Hello ' + this.user);
-    }
-}
+const User = require('./user');
 
 const user1 = new User('Vasya');
 const user2 = new User('Egor');
